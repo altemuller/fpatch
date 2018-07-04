@@ -10,7 +10,6 @@ import (
 )
 
 func main() {
-	const MAXSTRINGLENGTH = 0x64
 	if len(os.Args) < 2 {
 		fmt.Print("fpatch v1.2 Dmitry Mikhaltsov\nUsage:\nfpatch <config.ini>")
 		return
